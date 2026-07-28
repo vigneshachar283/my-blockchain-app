@@ -48,9 +48,7 @@ class TodoBlockchain {
   }
 }
 
-// ------------------------------
-// Testing the To-Do List
-// ------------------------------
+
 
 const todo = new TodoBlockchain();
 
