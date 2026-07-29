@@ -52,7 +52,5 @@ const todo = new TodoBlockchain();
 todo.addTask("Buy groceries");
 todo.addTask("Complete blockchain project");
 todo.addTask("Go to the gym");
-
 console.log(JSON.stringify(todo, null, 2));
-
 console.log("Is blockchain valid?", todo.isValid());
