@@ -47,9 +47,6 @@ class TodoBlockchain {
     return true;
   }
 }
-
-
-
 const todo = new TodoBlockchain();
 
 todo.addTask("Buy groceries");
