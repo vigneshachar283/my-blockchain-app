@@ -27,7 +27,7 @@ class TodoBlockchain {
     return this.chain[this.chain.length - 1];
   }
 
-  addTask(task) {
+addTask(task) {
     const newBlock = new Block(
       this.chain.length,
       task,
