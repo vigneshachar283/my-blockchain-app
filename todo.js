@@ -13,7 +13,6 @@ class Block {
     ).toString();
   }
 }
-
 class TodoBlockchain {
   constructor() {
     this.chain = [this.createGenesisBlock()];
