@@ -34,8 +34,7 @@ addTask(task) {
     );
     this.chain.push(newBlock);
   }
-
-  isValid() {
+isValid() {
     for (let i = 1; i < this.chain.length; i++) {
       const curr = this.chain[i];
       const prev = this.chain[i - 1];
