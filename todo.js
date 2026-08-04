@@ -46,7 +46,6 @@ isValid() {
   }
 }
 const todo = new TodoBlockchain();
-
 todo.addTask("Buy groceries");
 todo.addTask("Complete blockchain project");
 todo.addTask("Go to the gym");
